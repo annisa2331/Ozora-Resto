@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #595b58;
+    margin: 0;
+    padding: 0%;
+}
+
+#wrapper {
+    width: 990px;
+    margin: 0 auto;
+}
+
+#header {
+    background: url(IMG/BG\ group\ tittle.png);
+    height: 640px;
+    padding: 30px;
+    text-align: center;
+}
+
+.tittle {
+    padding-top: 49px;
+}
+
+.sub-tittle {
+    padding-top: 49px;
+}
+
+.menu-type {
+    padding-top: 39px;
+    position: relative;
+    justify-content: center;
+}
+
+#menu-1 {
+    margin-left: 30px;
+    height: 631px;
+    background: url(IMG/photo-魚介カレー.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 85px;
+}
+
+#menu-1 .description {
+    font-size: 20px;
+    padding-top: 42px;
+    color: #eed768;
+}
+
+#menu-1 .note {
+    font-size: 20px;
+    padding-top: 30px;
+    color: #fd9d5e;
+}
+
+#menu-2 {
+    margin-right: 30px;
+    height: 678px;
+    background: url(IMG/photo-ひつまぶし.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-bottom: 149px;
+}
+
+#menu-2 h2 {
+    text-align: right;
+}
+
+#menu-2 .description {
+    text-align: right;
+    font-size: 20px;
+    color: #eed768;
+    padding-top: 70px;
+}
+
+#menu-2 .note {
+    font-size: 20px;
+    color: #fd9d5e;
+    padding-top: 45px;
+}
+
+#menu-3 {
+    margin-left: 30px;
+    height: 648px;
+    background: url(IMG/photo-牛タンラーメン.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 85px;
+}
+
+#menu-3 h2 {
+    padding-bottom: 85px;
+}
+
+#menu-3 .description {
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: #eed768;
+}
+
+#menu-3 .note {
+    font-size: 20px;
+    padding-top: 45px;
+    color: #fd9d5e;
+}
+
+#bottom-coupon {
+    background: url(IMG/BG\ group\ kupon.png);
+    height: 669px;
+    text-align: center;
+    padding-top: 183px;
+}
+
+#bottom-coupon h3 {
+    text-align: left;
+    font-size: 25px;
+    color: #fd9d5e;
+    padding-top: 80px;
+    padding-left: 195px;
+}
+
+#bottom-coupon p {
+    font-size: 25px;
+    color: #eed768;
+    text-align: left;
+    padding-left: 250px;
+}
